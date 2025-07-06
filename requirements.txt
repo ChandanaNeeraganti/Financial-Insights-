@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+scikit-learn
+pdfplumber
+tabula-py
+pytesseract
+openpyxl
+matplotlib
+seaborn
+joblib
+sentence-transformers
+plotly
