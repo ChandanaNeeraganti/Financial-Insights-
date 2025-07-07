@@ -1121,8 +1121,8 @@ def main():
     
     # Load BERT model and classifier at the top, so they are always defined
     try:
-        bert_embedder = joblib.load('../bert_embedder.pkl')
-        bert_clf = joblib.load('../bert_classifier.pkl')
+        bert_embedder = joblib.load('bert_embedder.pkl')
+        bert_clf = joblib.load('bert_classifier.pkl')
     except Exception as e:
         bert_embedder = None
         bert_clf = None
@@ -1130,8 +1130,8 @@ def main():
     
     # Load enhanced model for transaction classification
     try:
-        enhanced_model = joblib.load('../transaction_classifier_enhanced.pkl')
-        enhanced_vectorizer = joblib.load('../transaction_vectorizer_enhanced.pkl')
+        enhanced_model = joblib.load('transaction_classifier_enhanced.pkl')
+        enhanced_vectorizer = joblib.load('transaction_vectorizer_enhanced.pkl')
         print("✅ Loaded enhanced model")
         use_enhanced_model = True
     except Exception as e:
