@@ -47,6 +47,7 @@ python main.py --csv sample_customers.csv --output results.xlsx
 # Start the Streamlit dashboard
 streamlit run dashboard/financial_dashboard.py
 ```
+live project: https://banker-prediction-ejkfsb3duch4g8y6hndljw.streamlit.app/
 
 ## 📊 CSV Input Format
 
