@@ -1,3 +1,4 @@
+
 # 🏦 Banker's Financial Insights Model
 
 A comprehensive financial analysis system designed specifically for bankers to gain clear insights into customer financial health and make informed lending decisions.
@@ -243,3 +244,6 @@ The model can be enhanced with:
 ---
 
 **Built for bankers, by financial analysts, to provide clarity and confidence in customer decisions.** 
+
+
+
